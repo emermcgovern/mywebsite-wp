@@ -22,7 +22,7 @@ if ( ! function_exists( 'my_website_2_setup' ) ) :
 		add_theme_support( 'automatic-feed-links' );
 
 	
-		//add_theme_support( 'title-tag' );
+		add_theme_support( 'title-tag' );
 
 		/*
 		 * Enable support for Post Thumbnails on posts and pages.
