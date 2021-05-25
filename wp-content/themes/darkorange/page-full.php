@@ -1,11 +1,13 @@
 <?php
 /*
- * The default template for displaying pages.
+ * Template Name: Full Width Template
+ * Description: Template without sidebar
+ * Template Post Type: page
  */
 ?>
 
 <?php get_header(); ?>
-<div id="content" role="main">
+<div id="content-full" role="main">
 	<?php while ( have_posts() ) : the_post(); ?>
 
 		<h1 class="page-title"><?php the_title(); ?></h1>
@@ -29,7 +31,4 @@
 
 	<?php edit_post_link( __( 'Edit', 'darkorange' ), '<div class="edit-link">', '</div>' ); ?>
 </div>
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
-
-

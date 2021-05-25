@@ -1,0 +1,339 @@
+CHANGELOG
+=========
+
+DarkOrange version 7.3 - may 2021
+- Page template files: added wrapper around page content
+- Updated file style
+
+DarkOrange version 7.2 - may 2021
+- Removed query to determine post alignment, now using CSS instead
+- Removed jQuery dependency from mobile menu
+- Mobile menu is regular Javascript now
+- Customizer: you can now set width of logo and add content in footer
+- For users with a child theme: updated files header and footer
+- Added content width variable for full width page and post
+- Several minor adjustments
+
+DarkOrange version 7.1 - january 2021
+- Fix: submenu in IE11
+- Fix: submenu in older iOS version
+- Fix: image caption
+- Updated support for screen readers
+
+DarkOrange version 7.0 - october 2020
+- Improved accessibility
+- Better support for screen readers
+- Because of this the CSS of main navigation is updated
+- File header: added skip to content link
+- Added ARIA Landmarks in several files
+- Several minor adjustments
+
+DarkOrange version 6.9 - may 2020
+- Added extra class to bottom postmeta of single event page
+- Minor changes in code
+- Readme file: updated info about theme features and settings
+
+DarkOrange version 6.8 - january 2020
+- Removed support for IE 8 and older
+- Added basic support for new editor
+- Updated head section
+- Changed logo tagline from h2 into div
+- Added class "list-image" to featured image in blog list
+- This class replaces native class "wp-post-image"
+- Removed native class "wp-post-image" from stylesheet
+- Removed unnecessary whitespaces from most files
+- Minor changes in code
+
+DarkOrange version 6.7 - july 2018
+- File style: changed CSS of many floating elements
+- File style: removed unnecessary CSS
+- File style: mobile menu update
+- File comments: changed comments-title from h4 into h3
+
+DarkOrange version 6.6 - june 2018
+- Fixed mistake in POT file
+- Readme file: removed donate link
+
+DarkOrange version 6.5 - june 2018
+- File comments: minor fix
+- Updated file style
+- Updated theme author info
+
+DarkOrange version 6.4 - february 2018
+- Several minor adjustments
+- Updated files style and custom-editor-style
+
+DarkOrange version 6.3 - february 2018
+- Several minor adjustments
+- Updated file style and functions
+
+DarkOrange version 6.2 - february 2018
+- Please ignore my notification in previous version regarding removal from repository
+- Decided not to remove it yet
+- Added a static font-size in body tag
+- Now other font-sizes will scale better
+- Updated h1-h6 headings
+- Updated files style and custom-editor-style
+- Several minor adjustments
+
+DarkOrange version 6.1 - november 2017
+- File style: minor fix
+
+DarkOrange version 6.0 - november 2017
+- Last update: this theme will be removed from repository
+- You can keep using theme, but without updates and without support from author
+- Added new options in customizer for blog page and posts
+- File style: relocated border-bottom from CSS class .more to CSS class .post-home and .post-not-home
+
+DarkOrange version 5.9 - september 2017
+- Fixed display issue with mobile menu
+- Added div container around mobile menu
+- Updated files header and style
+
+DarkOrange version 5.8 - july 2017
+- Added full width post template
+- Removed page template with left sidebar
+- Because other parts of theme do not support left sidebar
+- Removed files page-sidebar-left and sidebar-left
+- File style and custom-editor-style: added clear and margin-bottom to headings
+
+DarkOrange version 5.7 - june 2017
+- New jQuery navigation for mobile screens
+- Replaced select menu with toggle menu 
+- Files nav, header and style: added and removed code regarding new navigation
+- Files style and custom-editor-style: changed margin of several HTML tags to avoid margin collapsing
+- If you're using a child theme that contains file header: copy-paste code regarding new navigation
+
+DarkOrange version 5.6 - april 2017
+- File single: added post class .post-single
+- File style: changed margin and padding of several elements (layout improvement)
+
+DarkOrange version 5.5 - march 2017
+- File style: changed margin of several elements to avoid margin collapsing
+- Cleaned up file style
+- Updated files content-list and custom-editor-style
+- File functions: improved font family registering
+
+DarkOrange version 5.4 - march 2017
+- File style: fixed alignment issue of #respond
+
+DarkOrange version 5.3 - march 2017
+- File style: minor changes in HTML tags
+- File style: styling of select tag (cross-browser compatibility)
+- File style: added width and float to several elements (for better alignment)
+- File functions and single: removed post format (status)
+- Several minor adjustments
+
+DarkOrange version 5.2 - january 2017
+- Added support for hentry tags
+- Updated files content-postmeta, content-list and single
+- File style: adjusted CSS for inputs
+- File style: improved comments display
+- File custom-editor-style: removed theme colors (because theme can be customized)
+- Several minor adjustments
+
+DarkOrange version 5.1 - october 2016
+- Added page template with left sidebar
+- Several minor adjustments
+- New screenshot
+
+DarkOrange version 5.0 - august 2016
+- File content-postmeta-single: display post format too
+- Updated text strings
+- Several minor adjustments
+
+DarkOrange version 4.9 - august 2016
+- Removed unnecessary whitespaces from several files
+- File style: removed unnecessary id tags from several strings
+- File style: updated mobile stylesheet
+- File style and custom-editor-style: several minor adjustments
+- File functions: updated feature for HTML5 support in ie 8 and older
+
+DarkOrange version 4.8 - june 2016
+- Files style and custom-editor-style: resized all headings (including line-height)
+- File style: removed line-height from several elements
+
+DarkOrange version 4.7 - may 2016
+- Added file content-none 
+- Files 404, archive, index and search: relocated nothing found to separate file
+- Updated file index
+- Renamed both postmetadata files
+- File functions: changed default image sizes
+- Several minor adjustments
+
+DarkOrange version 4.6 - may 2016
+- Theme now supports post formats
+- File header: updated head section
+- Added file content-list 
+- Files archive, index and search: relocated part of loop to separate file
+- File index and style: changed featured post notice
+- File single: changed .page-title-post into .post-title-single
+- Changed .sticky into .sticky-title
+- Several minor adjustments
+
+DarkOrange version 4.4 - april 2016
+- Resized all headings (thanks Tom)
+- Changed address tag display
+- Several minor adjustments
+
+DarkOrange version 4.3 - march 2016
+- Fix: items where listed double in mobile menu
+- Mobile menu has it's own class now: .nav-head-mobile
+- Localized mobile menu
+- Mobile menu now supports 2 level subpages
+
+DarkOrange version 4.2 - march 2016
+- Added file postmeta-single
+- File single: relocated postmetadata to separate file
+- Fix in file custom-editor-style: removed tags from reset stylesheet
+- SEO improvement: blog description is h2 (thanks Tom)
+- SEO improvement: all page titles are h1 and all post titles are h2 (thanks Tom)
+- SEO improvement: all widget titles are h3 (thanks Tom)
+- File single: changed title class into .page-title-post
+- Updated readme file to WordPress default
+- File style and custom-editor-style: removed -moz-border-radius because not supported anymore
+
+DarkOrange version 4.1 - march 2016
+- Added file postmeta
+- Files archive, index, search and single: relocated postmetadata to separate file
+- File style and custom-editor-style: updated HTML tags (thanks Tom)
+- Updated text strings (thanks Tom)
+- Several minor adjustments
+
+DarkOrange version 4.0 - february 2016
+- File search: post nav inside the loop
+- File style: fixed alignment of next and prev post link
+- Several minor adjustments
+
+DarkOrange version 3.9 - january 2016
+- File header: removed is_home so homepage content is not displayed when using a static blog page
+- Several minor adjustments
+
+DarkOrange version 3.8 - january 2016
+- Updated file style
+- Updated file custom-editor-style
+- Updated file functions
+
+DarkOrange version 3.7 - december 2015
+- Fix: included the register_default_headers again because it did not work without
+
+DarkOrange version 3.6 - december 2015
+- Relocated mobile menu
+- File functions: removed register_default_headers (default header already included in after_setup_theme)
+- Several files: updated postmetadata
+- File style: several modifications
+- Several minor adjustments
+- Updated pot file
+
+DarkOrange version 3.5 - november 2015
+- Updated archive.php (added the_archive_title and the_archive_description)
+- Updated pot file
+- Removed translations (to support language packs from wordpress.org)
+- Several minor adjustments
+
+DarkOrange version 3.4 - september 2015
+- Updated file comments
+- Updated pagelink
+- File footer: copyrights
+- File archive and index: added pagetitle when no posts are found
+- Changed postmetadata heading into div
+- Reordered mobile stylesheet
+- Added Swedish translation (thanks Stefan)
+- Updated language files
+- Several minor adjustments
+
+DarkOrange version 3.3 - june 2015
+- File single: removed if statement
+- File functions, comments and style: changed alignment of comment nav
+- Reordered file style
+- Updated file readme
+
+DarkOrange version 3.2 - april 2015
+- Several minor adjustments in stylesheet
+- Removed support for document title in older WP versions 
+- Files index and archive: pagination inside loop
+
+DarkOrange version 3.1 - february 2015
+- Added Spanish translation (thanks Miquel)
+- Added German translation (thanks Frank)
+- Updated French translation (thanks Ollie)
+- File style: adjusted styling comments area
+- File style: added support in Chrome for Checkbox, Radio and Select
+- File style and file custom-editor-style: finetuned img position in post and page
+- File style: reordered mobile stylesheet
+- File footer: added div around footer-widgets
+- File functions: removed class excerpt because not used anymore
+- File functions: added class to posts nav (now no empty space when posts nav is not present)
+
+DarkOrange Version 3.0 - december 2014
+- File header: removed wp_title because of new title-tag
+- File functions: added backwards compatibility for WP 4.0 and older
+- Fixed padding right/left in full width page
+- Reordered file nav
+
+DarkOrange Version 2.8 - december 2014
+- File functions: added title-tag
+- File header: renamed #pre-header and #header into #header-first and #header-second
+- File index and file page-full: removed .article
+- Removed border right/left from home posts because of width issue
+- Updated the reset stylesheet
+- Adjusted styling of several tags
+- Reordered and cleaned up files style and custom-editor-style
+- Reordered PHP files
+
+DarkOrange Version 2.5 - december 2014
+- File functions: added custom post excerpt lenght
+- Added French translation
+- Several CSS adjustments
+
+DarkOrange Version 2.4 - november 2014
+- File functions: added sanitize_callback to logo upload
+- Several CSS adjustments
+
+DarkOrange Version 2.3 - october 2014
+- Added and adjusted text markup tags
+
+DarkOrange Version 2.2 - june 2014
+- Added several adjustments for better responsive layout
+- Text-align justify for content area, sidebar and footer
+- Several minor adjustments 
+
+DarkOrange Version 2.0 - june 2014
+- Changed size of featured image
+- Added featured image on single page
+- Several minor adjustments 
+
+DarkOrange Version 1.9 - april 2014
+- Several adjustments in functions file
+- Added pot translation file
+- Improved translation of meta
+- Better position of read more button
+- Better layout of commentsform
+- Added several adjustments for better responsive layout
+- A bunch of other minor adjustments in stylesheet
+
+DarkOrange version 1.8 - february 2014
+- Removed theme options page because this page only lists the available options
+- Added editor styles for page and post
+- Added translation to footer site info
+- A bunch of other minor adjustments in stylesheet
+
+DarkOrange version 1.7 - february 2014
+- Added theme options page
+- Added HTML5 support for IE8 and older
+- Added comments link to metadata in post
+- Added several adjustments for better responsive layout
+- A bunch of other minor adjustments in stylesheet
+
+DarkOrange version 1.4 - january 2014
+- Added custom background and custom logo function (check readme file for instructions)
+- Added several adjustments in file header
+- Added metadata (comments number) to post listing and single post
+- Removed info text about adding header image and homepage widgets (now you can use homepage template without them)
+- Fixed alignment issue in full width page template
+- Added border around homepage posts
+- Added new screenshot
+- A bunch of other minor adjustments in stylesheet (navigation, img alignment, mobile stylesheet, etc)
+
+DarkOrange version 1.3 - december 2013 
+- First stable release
