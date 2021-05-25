@@ -22,5 +22,5 @@ while ( have_posts() ) :
 	}
 endwhile; // End of the loop.
 
-get_footer();
+//get_footer();
 
