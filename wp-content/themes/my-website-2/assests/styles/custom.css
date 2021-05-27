@@ -1,0 +1,29 @@
+.menu {
+    background-color: blue;
+}
+
+.menu li{display: inline;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 60px;}
+
+    h1 {
+        font-size: x-small;
+    }
+
+    /* Forms */
+.nf-form-cont .ninja-forms-field.nf-element{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  /* ^ this is copied from Bootstrap's Forms CSS */
