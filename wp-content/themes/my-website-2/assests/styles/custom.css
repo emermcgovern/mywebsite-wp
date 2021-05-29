@@ -1,5 +1,5 @@
 .menu {
-    background-color: red;
+    background-color:darkslategray;
 }
 
 .menu li{display: inline;
@@ -9,10 +9,11 @@
 
 
 
-    img{size: 60px;}
+  
 
     h1 {
         font-size: large;
+        color: darkgrey;
     }
  
     
