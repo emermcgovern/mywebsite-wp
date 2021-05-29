@@ -1,21 +1,35 @@
-.menu {
-    background-color:gray;
- 
-}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css");
 
-.menu li{display: inline;
-    font-size: medium;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 10px;}
+     h1,h2{text-align:center; color: brown;} 
+     h3{color: firebrick;}
+     h6{color: maroon; text-align: center;}
 
+     p,li,ul
+     {color: indianred;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: medium;}
 
+     body
+     {background-color: bisque;}
 
+     img
+     {display:block;
+     margin-left: auto;
+     margin-right: auto;}
 
-    h1,h2,h3 {
-        font-size: large;
-        color: rgb(119, 119, 119);
-    }
-  
+     .nav-menu li
+     {display: inline;
+     font-size: large;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     padding: 60px;}
+
+     .btn-primary
+     {background-color:deeppink;
+     border-color: deeppink;}
+
+     .btn-primary:hover
+     {background-color: fuchsia;
+     border-color: fuchsia;}
 
     .site-footer {
         position:static;
