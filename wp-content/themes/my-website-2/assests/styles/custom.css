@@ -11,7 +11,26 @@
         font-size: large;
     }
 
-    footer {font-size: medium;}
+    .btn-primary {
+        color: #fff;
+        background-color: deeppink;
+        border-color: deeppink;
+      }
+      
+      .btn-primary:hover {
+        color: #fff;
+        background-color: purple;
+        border-color: purple;
+      }
+
+    .site-footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #333333;
+        padding-top: 20px;;
+        text-align: center;
+        color: #fff;}
 
     /* Forms */
 .nf-form-cont .ninja-forms-field.nf-element{
