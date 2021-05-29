@@ -4,8 +4,9 @@
 
 .menu li{display: inline;
     font-size: medium;
+    width: 100%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 30px;}
+    padding: 60px;}
 
 
 
@@ -18,10 +19,10 @@
 
     .site-footer {
         position:static;
-        bottom: 40;
+        bottom: 40px;
         width: 100%;
         background-color: #333333;
-        padding-top: 50px;;
+        padding-top: 50px;
         text-align: center;
         color: #fff;}
 
