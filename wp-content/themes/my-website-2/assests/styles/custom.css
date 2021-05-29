@@ -1,12 +1,12 @@
 .menu {
     background-color:gray;
-    width: 100%;
+ 
 }
 
 .menu li{display: inline;
     font-size: medium;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 60px;}
+    padding: 10px;}
 
 
 
