@@ -1,5 +1,5 @@
 .menu {
-    background-color:darkslategray;
+    background-color:gray;
 }
 
 .menu li{display: inline;
@@ -9,25 +9,23 @@
 
 
 
-  
 
-    h1 {
+    h1,h2,h3 {
         font-size: large;
         color: darkgrey;
     }
- 
-    
+  
 
     .site-footer {
         position:static;
-        bottom: 0;
+        bottom: 40;
         width: 100%;
         background-color: #333333;
         padding-top: 50px;;
         text-align: center;
         color: #fff;}
 
-    /* Forms */
+ 
 .nf-form-cont .ninja-forms-field.nf-element{
     display: block;
     width: 100%;
