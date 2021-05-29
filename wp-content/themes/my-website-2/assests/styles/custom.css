@@ -10,7 +10,10 @@
     h1 {
         font-size: large;
     }
-
+    .media p {
+        font-size: 16px;
+        /*line-height: 25.6px;*/
+      }
    
 
     .site-footer {
@@ -37,15 +40,4 @@
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
-  .btn-primary {
-    color: #fff;
-    background-color: deeppink;
-    border-color: deeppink;
-  }
-  
-  .btn-primary:hover {
-    color: #fff;
-    background-color: purple;
-    border-color: purple;
-  }
-
+ 
