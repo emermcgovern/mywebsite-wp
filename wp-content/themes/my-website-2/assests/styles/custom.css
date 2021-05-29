@@ -11,24 +11,14 @@
         font-size: large;
     }
 
-    .btn-primary {
-        color: #fff;
-        background-color: deeppink;
-        border-color: deeppink;
-      }
-      
-      .btn-primary:hover {
-        color: #fff;
-        background-color: purple;
-        border-color: purple;
-      }
+   
 
     .site-footer {
         position:static;
         bottom: 0;
         width: 100%;
         background-color: #333333;
-        padding-top: 20px;;
+        padding-top: 50px;;
         text-align: center;
         color: #fff;}
 
@@ -47,4 +37,15 @@
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
-  /* ^ this is copied from Bootstrap's Forms CSS */
+  .btn-primary {
+    color: #fff;
+    background-color: deeppink;
+    border-color: deeppink;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: purple;
+    border-color: purple;
+  }
+
