@@ -3,11 +3,9 @@
 }
 
 .menu li{display: inline;
-    font-size: large;
+    font-size: medium;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 60px;}
-
-.background {color: royalblue;}
+    padding: 630px;}
 
     h1 {
         font-size: large;
